@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdf:xdatenfelder.stammdatenschema.0102 xmlns:xdf="urn:xoev-de:fim:standard:xdatenfelder_2">
+    <xdf:header>
+        <xdf:nachrichtID>abcd1234</xdf:nachrichtID>
+        <xdf:erstellungszeitpunkt>2020-09-01T00:00:00.000000Z</xdf:erstellungszeitpunkt>
+    </xdf:header>
+    <xdf:stammdatenschema>
+        <xdf:identifikation>
+            <xdf:id>T1234</xdf:id>
+            <xdf:version>1.0</xdf:version>
+        </xdf:identifikation>
+        <xdf:name>Test</xdf:name>
+        <xdf:bezeichnungEingabe>Test</xdf:bezeichnungEingabe>
+        <xdf:beschreibung>Eine Beschreibung</xdf:beschreibung>
+        <xdf:definition>Eine Defintion</xdf:definition>
+        <xdf:bezug>Bezug</xdf:bezug>
+        <xdf:status listURI="urn:xoev-de:fim:codeliste:xdatenfelder.status" listVersionID="1.0">
+            <code>aktiv</code>
+        </xdf:status>
+        <xdf:fachlicherErsteller>Test</xdf:fachlicherErsteller>
+        <xdf:versionshinweis>Ein Versionshinweis</xdf:versionshinweis>
+        <xdf:freigabedatum>2023-01-01</xdf:freigabedatum>
+        <xdf:veroeffentlichungsdatum>2023-01-01</xdf:veroeffentlichungsdatum>
+        <xdf:ableitungsmodifikationenStruktur listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenStruktur" listVersionID="1.0">
+            <code>3</code>
+        </xdf:ableitungsmodifikationenStruktur>
+        <xdf:ableitungsmodifikationenRepraesentation listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenRepraesentation" listVersionID="1.0">
+            <code>1</code>
+        </xdf:ableitungsmodifikationenRepraesentation>
+        <xdf:struktur>
+            <xdf:anzahl>1:1</xdf:anzahl>
+            <xdf:bezug></xdf:bezug>
+            <xdf:enthaelt>
+                <xdf:datenfeld>
+                    <xdf:identifikation>
+                        <xdf:id>F123</xdf:id>
+                        <xdf:version>1.0</xdf:version>
+                    </xdf:identifikation>
+                    <xdf:name>Hinweis</xdf:name>
+                    <xdf:bezeichnungEingabe>Hinweis</xdf:bezeichnungEingabe>
+                    <xdf:bezeichnungAusgabe>Hinweis</xdf:bezeichnungAusgabe>
+                    <xdf:beschreibung></xdf:beschreibung>
+                    <xdf:definition></xdf:definition>
+                    <xdf:bezug></xdf:bezug>
+                    <xdf:status listURI="urn:xoev-de:fim:codeliste:xdatenfelder.status" listVersionID="1.0">
+                        <code>aktiv</code>
+                    </xdf:status>
+                    <xdf:fachlicherErsteller>Creator</xdf:fachlicherErsteller>
+                    <xdf:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>RNG</code>
+                    </xdf:schemaelementart>
+                    <xdf:hilfetextEingabe></xdf:hilfetextEingabe>
+                    <xdf:hilfetextAusgabe></xdf:hilfetextAusgabe>
+                    <xdf:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="1.0">
+                        <code>label</code>
+                    </xdf:feldart>
+                    <xdf:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="1.0">
+                        <code>text</code>
+                    </xdf:datentyp>
+                    <xdf:praezisierung></xdf:praezisierung>
+                    <xdf:inhalt>Hinweis Inhalt</xdf:inhalt>
+                </xdf:datenfeld>
+            </xdf:enthaelt>
+        </xdf:struktur>
+    </xdf:stammdatenschema>
+</xdf:xdatenfelder.stammdatenschema.0102>

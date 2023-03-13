@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdf:xdatenfelder.datenfeldgruppe.0103 xmlns:xdf="urn:xoev-de:fim:standard:xdatenfelder_3.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xoev-de:fim:standard:xdatenfelder_3.0.0 xsd/xdatenfelder.xsd">
+    <xdf:header>
+        <xdf:nachrichtID>65FD4FCC3C8D77FC</xdf:nachrichtID>
+        <xdf:erstellungszeitpunkt>2021-04-14T12:49:54.848Z</xdf:erstellungszeitpunkt>
+    </xdf:header>
+    <xdf:datenfeldgruppe>
+        <xdf:identifikation>
+            <xdf:id>G60000000088</xdf:id>
+            <xdf:version>1.2.0</xdf:version>
+        </xdf:identifikation>
+        <xdf:name>Anschrift Inland</xdf:name>
+        <xdf:beschreibung/>
+        <xdf:definition/>
+        <xdf:freigabestatus listVersionID="2020-03-19">
+            <code>6</code>
+        </xdf:freigabestatus>
+        <xdf:statusGesetztAm>2021-03-05</xdf:statusGesetztAm>
+        <xdf:statusGesetztDurch>FIM Baustein Datenfelder</xdf:statusGesetztDurch>
+        <xdf:veroeffentlichungsdatum>2021-03-03</xdf:veroeffentlichungsdatum>
+        <xdf:letzteAenderung>2021-03-31T11:51:29Z</xdf:letzteAenderung>
+        <xdf:bezeichnungEingabe>Anschrift in Deutschland</xdf:bezeichnungEingabe>
+        <xdf:bezeichnungAusgabe>Anschrift in Deutschland</xdf:bezeichnungAusgabe>
+        <xdf:schemaelementart>
+            <code>HAR</code>
+        </xdf:schemaelementart>
+        <xdf:struktur>
+            <xdf:anzahl>0:1</xdf:anzahl>
+            <xdf:enthaelt>
+                <xdf:datenfeld>
+                    <xdf:identifikation>
+                        <xdf:id>F60000000243</xdf:id>
+                        <xdf:version>1.1.0</xdf:version>
+                    </xdf:identifikation>
+                    <xdf:name>Straße</xdf:name>
+                    <xdf:freigabestatus listVersionID="2020-03-19">
+                        <code>6</code>
+                    </xdf:freigabestatus>
+                    <xdf:statusGesetztAm>2020-11-02</xdf:statusGesetztAm>
+                    <xdf:statusGesetztDurch>FIM-Baustein Datenfelder</xdf:statusGesetztDurch>
+                    <xdf:veroeffentlichungsdatum>2020-11-02</xdf:veroeffentlichungsdatum>
+                    <xdf:letzteAenderung>2021-01-01T01:00:00Z</xdf:letzteAenderung>
+                    <xdf:bezeichnungEingabe>Straße</xdf:bezeichnungEingabe>
+                    <xdf:bezeichnungAusgabe>Straße</xdf:bezeichnungAusgabe>
+                    <xdf:schemaelementart>
+                        <code>HAR</code>
+                    </xdf:schemaelementart>
+                    <xdf:feldart>
+                        <code>select</code>
+                    </xdf:feldart>
+                    <xdf:datentyp>
+                        <code>text</code>
+                    </xdf:datentyp>
+                    <xdf:codelisteReferenz>
+                    </xdf:codelisteReferenz>
+                    <xdf:inhalt/>
+                    <xdf:vorbefuellung>
+                        <code>keine</code>
+                    </xdf:vorbefuellung>
+                    <xdf:praezisierung maxLength="1" minLength="0" minValue="0" maxValue="1" pattern="abc">
+                        Constraints
+                    </xdf:praezisierung>
+                    <xdf:inhalt>Some Content</xdf:inhalt>
+                    <xdf:codeKey>CodeKey</xdf:codeKey>
+                    <xdf:nameKey>NameKey</xdf:nameKey>
+                    <xdf:helpKey>HelpKey</xdf:helpKey>
+                    <xdf:maxSize>10</xdf:maxSize>
+                    <xdf:mediaType>application/json</xdf:mediaType>
+                </xdf:datenfeld>
+            </xdf:enthaelt>
+        </xdf:struktur>
+    </xdf:datenfeldgruppe>
+</xdf:xdatenfelder.datenfeldgruppe.0103>

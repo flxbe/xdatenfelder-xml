@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdf:xdatenfelder.stammdatenschema.0102 xmlns:xdf="urn:xoev-de:fim:standard:xdatenfelder_unknown">
+    <xdf:header>
+        <xdf:nachrichtID>abcd1234</xdf:nachrichtID>
+        <xdf:erstellungszeitpunkt>2020-09-01T00:00:00.000000Z</xdf:erstellungszeitpunkt>
+    </xdf:header>
+    <xdf:stammdatenschema>
+        <xdf:identifikation>
+            <xdf:id>T1234</xdf:id>
+            <xdf:version>1.0</xdf:version>
+        </xdf:identifikation>
+        <xdf:name>Test</xdf:name>
+        <xdf:bezeichnungEingabe></xdf:bezeichnungEingabe>
+        <xdf:beschreibung></xdf:beschreibung>
+        <xdf:definition></xdf:definition>
+        <xdf:bezug></xdf:bezug>
+        <xdf:status listURI="urn:xoev-de:fim:codeliste:xdatenfelder.status" listVersionID="1.0">
+            <code>aktiv</code>
+        </xdf:status>
+        <xdf:fachlicherErsteller>Test</xdf:fachlicherErsteller>
+        <xdf:versionshinweis></xdf:versionshinweis>
+        <xdf:freigabedatum>2023-01-01</xdf:freigabedatum>
+        <xdf:veroeffentlichungsdatum>2023-01-01</xdf:veroeffentlichungsdatum>
+        <xdf:ableitungsmodifikationenStruktur
+            listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenStruktur"
+            listVersionID="1.0">
+            <code>3</code>
+        </xdf:ableitungsmodifikationenStruktur>
+        <xdf:ableitungsmodifikationenRepraesentation
+            listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenRepraesentation"
+            listVersionID="1.0">
+            <code>1</code>
+        </xdf:ableitungsmodifikationenRepraesentation>
+    </xdf:stammdatenschema>
+    <xdf:struktur></xdf:struktur>
+</xdf:xdatenfelder.stammdatenschema.0102>

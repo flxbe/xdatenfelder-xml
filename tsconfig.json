@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"],
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES5"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ES6",
+      "moduleResolution": "node"
+    },
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

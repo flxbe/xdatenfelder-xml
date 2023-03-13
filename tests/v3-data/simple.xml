@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdf:xdatenfelder.datenfeldgruppe.0103 xmlns:xdf="urn:xoev-de:fim:standard:xdatenfelder_3.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xoev-de:fim:standard:xdatenfelder_3.0.0 xsd/xdatenfelder.xsd">
+    <xdf:header>
+        <xdf:nachrichtID>65FD4FCC3C8D77FC</xdf:nachrichtID>
+        <xdf:erstellungszeitpunkt>2021-04-14T12:49:54.848Z</xdf:erstellungszeitpunkt>
+    </xdf:header>
+    <xdf:datenfeldgruppe>
+        <xdf:identifikation>
+            <xdf:id>G60000000088</xdf:id>
+            <xdf:version>1.2.0</xdf:version>
+        </xdf:identifikation>
+        <xdf:name>Anschrift Inland</xdf:name>
+        <xdf:beschreibung>Eine Beschreibung</xdf:beschreibung>
+        <xdf:definition>Eine Definition</xdf:definition>
+        <xdf:bezug>
+            Rechtsbezug
+        </xdf:bezug>
+        <xdf:freigabestatus listVersionID="2020-03-19">
+            <!-- 6 = fachlich freigegeben (gold) -->
+            <code>6</code>
+        </xdf:freigabestatus>
+        <xdf:statusGesetztAm>2021-03-05</xdf:statusGesetztAm>
+        <xdf:statusGesetztDurch>FIM Baustein Datenfelder</xdf:statusGesetztDurch>
+        <xdf:versionshinweis>Hausnummerzusatz aufgenommen</xdf:versionshinweis>
+        <xdf:gueltigAb>2021-03-01</xdf:gueltigAb>
+        <xdf:gueltigBis>2021-03-02</xdf:gueltigBis>
+        <xdf:veroeffentlichungsdatum>2021-03-03</xdf:veroeffentlichungsdatum>
+        <xdf:letzteAenderung>2021-03-31T11:51:29Z</xdf:letzteAenderung>
+        <xdf:bezeichnungEingabe>Anschrift in Deutschland</xdf:bezeichnungEingabe>
+        <xdf:bezeichnungAusgabe>Anschrift in Deutschland</xdf:bezeichnungAusgabe>
+        <xdf:schemaelementart>
+            <code>HAR</code>
+        </xdf:schemaelementart>
+        <xdf:hilfetextEingabe>Eingabehilfe</xdf:hilfetextEingabe>
+        <xdf:hilfetextAusgabe>Ausgabehilfe</xdf:hilfetextAusgabe>
+        <xdf:stichwort uri="some reference">
+            Ein Stichwort
+        </xdf:stichwort>
+        <xdf:relation>
+            <xdf:praedikat>
+                <code>ERS</code>
+            </xdf:praedikat>
+            <xdf:objekt>
+                <xdf:id>G60000000088</xdf:id>
+                <xdf:version>1.1.0</xdf:version>
+            </xdf:objekt>
+        </xdf:relation>
+        <xdf:regel>
+            <xdf:identifikation>
+                <xdf:id>R60000000019</xdf:id>
+                <xdf:version>1.2.0</xdf:version>
+            </xdf:identifikation>
+            <xdf:name>Anschrift Inland Straßenanschrift / Anschrift Inland Postfachanschrift</xdf:name>
+            <xdf:beschreibung>Eine Regelbeschreibung</xdf:beschreibung>
+            <xdf:freitextRegel>
+                Es muss entweder Feldgruppe G60000086 "Anschrift Inland Straßenanschrift" oder Feldgruppe G60000087 "Anschrift Inland Postfachanschrift" befüllt werden.
+            </xdf:freitextRegel>
+            <xdf:bezug link="some reference link">
+                Eine Bezugsquelle
+            </xdf:bezug>
+            <xdf:fachlicherErsteller>FIM Baustein Datenfelder</xdf:fachlicherErsteller>
+            <xdf:letzteAenderung>2021-03-29T10:00:00Z</xdf:letzteAenderung>
+            <xdf:typ>
+                <code>V</code>
+            </xdf:typ>
+            <xdf:skript>some script content</xdf:skript>
+            <xdf:stichwort uri="some reference">
+                Ein Stichwort
+            </xdf:stichwort>
+        </xdf:regel>
+        <xdf:struktur>
+            <xdf:anzahl>0:1</xdf:anzahl>
+            <xdf:bezug>
+                Rechtsbezug
+            </xdf:bezug>
+            <xdf:enthaelt>
+                <xdf:datenfeldgruppe>
+                    <xdf:identifikation>
+                        <xdf:id>G60000000086</xdf:id>
+                        <xdf:version>1.2.0</xdf:version>
+                    </xdf:identifikation>
+                    <xdf:name>Anschrift Inland Straßenanschrift</xdf:name>
+                    <xdf:beschreibung/>
+                    <xdf:definition/>
+                    <xdf:bezug/>
+                    <xdf:freigabestatus listVersionID="2020-03-19">
+                        <!-- 6 = fachlich freigegeben (gold) -->
+                        <code>6</code>
+                    </xdf:freigabestatus>
+                    <xdf:statusGesetztAm>2021-03-31</xdf:statusGesetztAm>
+                    <xdf:statusGesetztDurch>FIM-Baustein Datenfelder</xdf:statusGesetztDurch>
+                    <xdf:versionshinweis>Hausnummerzusatz aufgenommen</xdf:versionshinweis>
+                    <xdf:veroeffentlichungsdatum>2021-03-31</xdf:veroeffentlichungsdatum>
+                    <xdf:letzteAenderung>2021-01-01T01:00:00Z</xdf:letzteAenderung>
+                    <xdf:bezeichnungEingabe>Straßenanschrift</xdf:bezeichnungEingabe>
+                    <xdf:bezeichnungAusgabe>Straßenanschrift</xdf:bezeichnungAusgabe>
+                    <xdf:schemaelementart>
+                        <code>HAR</code>
+                    </xdf:schemaelementart>
+                    <xdf:hilfetextEingabe>Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.
+                    </xdf:hilfetextEingabe>
+                    <xdf:hilfetextAusgabe/>
+                    <xdf:struktur>
+                        <xdf:anzahl>1:1</xdf:anzahl>
+                        <xdf:bezug/>
+                        <xdf:enthaelt>
+                            <xdf:datenfeld>
+                                <xdf:identifikation>
+                                    <xdf:id>F60000000243</xdf:id>
+                                    <xdf:version>1.1.0</xdf:version>
+                                </xdf:identifikation>
+                                <xdf:name>Straße</xdf:name>
+                                <xdf:beschreibung>
+                                    Kompatibilität zu EPA in TR XhD v 1.4 sollte Feldlänge min. 50. Bei XInneres 8 ist die Feldlänge &lt;= 55 Zeichen.
+                                </xdf:beschreibung>
+                                <xdf:definition/>
+                                <xdf:bezug>XInneres.Meldeanschrift.strasse Version 8</xdf:bezug>
+                                <xdf:freigabestatus listVersionID="2020-03-19">
+                                    <!-- 6 = fachlich freigegeben (gold) -->
+                                    <code>6</code>
+                                </xdf:freigabestatus>
+                                <xdf:statusGesetztAm>2020-11-02</xdf:statusGesetztAm>
+                                <xdf:statusGesetztDurch>FIM-Baustein Datenfelder</xdf:statusGesetztDurch>
+                                <xdf:veroeffentlichungsdatum>2020-11-02</xdf:veroeffentlichungsdatum>
+                                <xdf:letzteAenderung>2021-01-01T01:00:00Z</xdf:letzteAenderung>
+                                <xdf:bezeichnungEingabe>Straße</xdf:bezeichnungEingabe>
+                                <xdf:bezeichnungAusgabe>Straße</xdf:bezeichnungAusgabe>
+                                <xdf:schemaelementart>
+                                    <code>HAR</code>
+                                </xdf:schemaelementart>
+                                <xdf:hilfetextEingabe>Geben Sie an, wie die Straße heißt.</xdf:hilfetextEingabe>
+                                <xdf:hilfetextAusgabe/>
+                                <xdf:feldart>
+                                    <code>input</code>
+                                </xdf:feldart>
+                                <xdf:datentyp>
+                                    <code>text</code>
+                                </xdf:datentyp>
+                                <xdf:praezisierung minLength="1" maxLength="55"/>
+                                <xdf:inhalt/>
+                                <xdf:vorbefuellung>
+                                    <code>keine</code>
+                                </xdf:vorbefuellung>
+                                <xdf:regel>
+                                    <xdf:identifikation>
+                                        <xdf:id>R60000000019</xdf:id>
+                                        <xdf:version>1.2.0</xdf:version>
+                                    </xdf:identifikation>
+                                    <xdf:name>Anschrift Inland Straßenanschrift / Anschrift Inland Postfachanschrift</xdf:name>
+                                    <xdf:beschreibung>Eine Regelbeschreibung</xdf:beschreibung>
+                                    <xdf:freitextRegel>
+                                        Es muss entweder Feldgruppe G60000086 "Anschrift Inland Straßenanschrift" oder Feldgruppe G60000087 "Anschrift Inland Postfachanschrift" befüllt werden.
+                                    </xdf:freitextRegel>
+                                    <xdf:bezug link="some reference link">
+                                        Eine Bezugsquelle
+                                    </xdf:bezug>
+                                    <xdf:fachlicherErsteller>FIM Baustein Datenfelder</xdf:fachlicherErsteller>
+                                    <xdf:letzteAenderung>2021-03-29T10:00:00Z</xdf:letzteAenderung>
+                                    <xdf:typ>
+                                        <code>V</code>
+                                    </xdf:typ>
+                                    <xdf:skript>some script content</xdf:skript>
+                                    <xdf:stichwort uri="some reference">
+                                        Ein Stichwort
+                                    </xdf:stichwort>
+                                </xdf:regel>
+                            </xdf:datenfeld>
+                        </xdf:enthaelt>
+                    </xdf:struktur>
+                </xdf:datenfeldgruppe>
+            </xdf:enthaelt>
+        </xdf:struktur>
+    </xdf:datenfeldgruppe>
+</xdf:xdatenfelder.datenfeldgruppe.0103>
