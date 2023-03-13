@@ -1,6 +1,6 @@
 {
   "name": "xdatenfelder-xml",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A parser for XDatenfelder files. Supports versions 2.0 and 3.0.0.",
   "author": "Felix Bernhardt",
   "license": "EUPL-1.2",

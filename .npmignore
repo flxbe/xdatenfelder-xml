@@ -1,6 +1,8 @@
 data
-test-deta
+test-data
 tests
+src
+benchmarks
 combine.ts
 database.json
 jest.config.cjs
