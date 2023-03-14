@@ -6,7 +6,6 @@
   "license": "EUPL-1.2",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "prepublish": "tsc",
