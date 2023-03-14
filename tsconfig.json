@@ -6,7 +6,7 @@
     "declaration": true,
     "outDir": "dist",
     "module": "CommonJS",
-    "target": "ES5"
+    "target": "ES6"
   },
   "ts-node": {
     "compilerOptions": {
