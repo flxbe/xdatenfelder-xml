@@ -1,3 +1,4 @@
+.github
 data
 test-data
 tests
@@ -6,3 +7,4 @@ benchmarks
 combine.ts
 database.json
 jest.config.cjs
+tsconfig.json
